@@ -1,0 +1,67 @@
+h1{
+	font-size: 32px;
+}
+h2{
+	font-size: 24px;
+}
+h3{
+	font-size: 20px;
+}
+header{
+	background: rgb(0,128,0);
+	text-align: center;
+	color: white;
+	padding: 15px;
+}
+.wrapper-content{
+	max-width: 780px;
+	margin: 0 auto;
+}
+
+nav{
+	width: 200px;
+	background: rgb(255,0,0);
+	float: left;
+}
+nav ul{
+	margin: 30px 30px 0 50px;
+}
+nav ul>li{
+	margin-bottom: 14px;
+	display: block;
+
+}
+nav ul>li>a{
+	color: white;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:17px;
+} 
+nav ul>li:hover{
+	background: rgb(0,128,0);
+} 
+section p::selection{
+	color: white;
+	background: rgb(0,128,0);
+}
+section{
+	margin-left: 200px;
+	padding:30px;
+}
+section p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:17px;
+}
+section p:first-letter{
+	color: rgb(255,0,0);
+	font-size: 20px;
+}
+.clear{
+	clear:both;
+}
+footer{
+	background: #000;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
